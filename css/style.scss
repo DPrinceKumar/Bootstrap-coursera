@@ -65,3 +65,16 @@ padding: 10px;
     position: absolute;
     bottom: 0px;
 }
+.modal
+{
+color: $background-pale;
+    .modal-header{
+        background-color:$background-dark;
+        color: $lt-gray;
+        // @include zero-margin(10px, 30px)
+    }
+    .modal-body{
+        background-color: $background-pale;
+        color:black;
+    }
+}
